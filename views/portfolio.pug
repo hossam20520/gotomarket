@@ -7,18 +7,31 @@ section#portfolio.section-bg
         ul#portfolio-flters
           li.filter-active(data-filter='*') All
           li(data-filter='.filter-app') App
-          li(data-filter='.filter-card') Card
+          li(data-filter='.filter-card') GIS
           li(data-filter='.filter-web') Web
+          li(data-filter='.filter-erp') Odoo ERP
     .row.portfolio-container
       .col-lg-4.col-md-6.portfolio-item.filter-app
         .portfolio-wrap
-          img.img-fluid(src='img/portfolio/app1.jpg', alt='')
+          img.img-fluid(src='/images/image.jpg', alt='')
           .portfolio-info
             h4
               a(href='#') App 1
             p App
             div
-              a.link-preview(href='img/portfolio/app1.jpg', data-lightbox='portfolio', data-title='App 1', title='Preview')
+              a.link-preview(href='/images/image.jpg', data-lightbox='portfolio', data-title='App 1', title='Preview')
+                i.ion.ion-eye
+              a.link-details(href='#', title='More Details')
+                i.ion.ion-android-open
+      .col-lg-4.col-md-6.portfolio-item.filter-erb(data-wow-delay='0.1s')
+        .portfolio-wrap
+          img.img-fluid(src='/images/EERR.jpg', alt='')
+          .portfolio-info
+            h4
+              a(href='#') ERP
+            p ERP
+            div
+              a.link-preview(href='/images/EERR.jpg', data-lightbox='portfolio', data-title='Web 3', title='Preview')
                 i.ion.ion-eye
               a.link-details(href='#', title='More Details')
                 i.ion.ion-android-open
@@ -36,25 +49,61 @@ section#portfolio.section-bg
                 i.ion.ion-android-open
       .col-lg-4.col-md-6.portfolio-item.filter-app(data-wow-delay='0.2s')
         .portfolio-wrap
-          img.img-fluid(src='img/portfolio/app2.jpg', alt='')
+          img.img-fluid(src='/images/images3.jpg', alt='')
           .portfolio-info
             h4
               a(href='#') App 2
             p App
             div
-              a.link-preview(href='img/portfolio/app2.jpg', data-lightbox='portfolio', data-title='App 2', title='Preview')
+              a.link-preview(href='/images/images3.jpg', data-lightbox='portfolio', data-title='App 2', title='Preview')
                 i.ion.ion-eye
               a.link-details(href='#', title='More Details')
                 i.ion.ion-android-open
       .col-lg-4.col-md-6.portfolio-item.filter-card
         .portfolio-wrap
-          img.img-fluid(src='img/portfolio/card2.jpg', alt='')
+          img.img-fluid(src='/images/gis2.png', alt='')
           .portfolio-info
             h4
-              a(href='#') Card 2
-            p Card
+              a(href='#') GIS 2
+            p GIS
             div
-              a.link-preview(href='img/portfolio/card2.jpg', data-lightbox='portfolio', data-title='Card 2', title='Preview')
+              a.link-preview(href='/images/gis2.png', data-lightbox='portfolio', data-title='Card 2', title='Preview')
+                i.ion.ion-eye
+              a.link-details(href='#', title='More Details')
+                i.ion.ion-android-open
+      .col-lg-4.col-md-6.portfolio-item.filter-erp
+        .portfolio-wrap
+          img.img-fluid(src='/images/erp2.jpg', alt='')
+          .portfolio-info
+            h4
+              a(href='#') erp1
+            p erp1
+            div
+              a.link-preview(href='/images/erp2.jpg', data-lightbox='portfolio', data-title='Card 2', title='Preview')
+                i.ion.ion-eye
+              a.link-details(href='#', title='More Details')
+                i.ion.ion-android-open
+      .col-lg-4.col-md-6.portfolio-item.filter-erp
+        .portfolio-wrap
+          img.img-fluid(src='/images/EERR.jpg', alt='')
+          .portfolio-info
+            h4
+              a(href='#') erp2
+            p erp2
+            div
+              a.link-preview(href='/images/EERR.jpg', data-lightbox='portfolio', data-title='Card 2', title='Preview')
+                i.ion.ion-eye
+              a.link-details(href='#', title='More Details')
+                i.ion.ion-android-open
+      .col-lg-4.col-md-6.portfolio-item.filter-erp
+        .portfolio-wrap
+          img.img-fluid(src='/images/erp3.gif', alt='')
+          .portfolio-info
+            h4
+              a(href='#') erp3
+            p erp3
+            div
+              a.link-preview(href='/images/erp3.gif', data-lightbox='portfolio', data-title='Card 2', title='Preview')
                 i.ion.ion-eye
               a.link-details(href='#', title='More Details')
                 i.ion.ion-android-open
@@ -72,37 +121,50 @@ section#portfolio.section-bg
                 i.ion.ion-android-open
       .col-lg-4.col-md-6.portfolio-item.filter-app(data-wow-delay='0.2s')
         .portfolio-wrap
-          img.img-fluid(src='img/portfolio/app3.jpg', alt='')
+          img.img-fluid(src='/images/images.jpg', alt='')
           .portfolio-info
             h4
               a(href='#') App 3
             p App
             div
-              a.link-preview(href='img/portfolio/app3.jpg', data-lightbox='portfolio', data-title='App 3', title='Preview')
+              a.link-preview(href='/images/images.jpg', data-lightbox='portfolio', data-title='App 3', title='Preview')
                 i.ion.ion-eye
               a.link-details(href='#', title='More Details')
                 i.ion.ion-android-open
       .col-lg-4.col-md-6.portfolio-item.filter-card
         .portfolio-wrap
-          img.img-fluid(src='img/portfolio/card1.jpg', alt='')
+          img.img-fluid(src='/images/gis1.png', alt='')
           .portfolio-info
             h4
-              a(href='#') Card 1
-            p Card
+              a(href='#') gis 1
+            p GIS
             div
-              a.link-preview(href='img/portfolio/card1.jpg', data-lightbox='portfolio', data-title='Card 1', title='Preview')
+              a.link-preview(href='/images/gis1.png', data-lightbox='portfolio', data-title='Card 1', title='Preview')
                 i.ion.ion-eye
               a.link-details(href='#', title='More Details')
                 i.ion.ion-android-open
       .col-lg-4.col-md-6.portfolio-item.filter-card(data-wow-delay='0.1s')
         .portfolio-wrap
-          img.img-fluid(src='img/portfolio/card3.jpg', alt='')
+          img.img-fluid(src='/images/gis3.png', alt='')
           .portfolio-info
             h4
-              a(href='#') Card 3
-            p Card
+              a(href='#') GIS 3
+            p GIS
             div
-              a.link-preview(href='img/portfolio/card3.jpg', data-lightbox='portfolio', data-title='Card 3', title='Preview')
+              a.link-preview(href='/images/gis3.png', data-lightbox='portfolio', data-title='Card 3', title='Preview')
+                i.ion.ion-eye
+              a.link-details(href='#', title='More Details')
+                i.ion.ion-android-open
+      .col-lg-4.col-md-6.portfolio-item.filter-card(data-wow-delay='0.1s')
+        .portfolio-wrap
+          img.img-fluid(src='/images/gis4.png', alt='')
+          .portfolio-info
+            h4
+              a(href='#') GIS 4
+            p  
+            | GIS
+            div
+              a.link-preview(href='/images/gis4.png', data-lightbox='portfolio', data-title='Card 3', title='Preview')
                 i.ion.ion-eye
               a.link-details(href='#', title='More Details')
                 i.ion.ion-android-open
